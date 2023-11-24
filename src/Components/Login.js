@@ -27,8 +27,8 @@ function Login() {
   };
 
   return (
-    <div className="d-flex justify-content-center align-items-center bg-info vh-100">
-      <div className="bg-warning p-3 rounded w-25">
+    <div className="justify-content-center align-items-center" style={{background:'#721CC8'}}>
+      <div className=" p-3 rounded w-25"style={{ background: '#D9D9D9' }}>
         <h2>Login</h2>
         <form onSubmit={handleSubmit}>
           <div>
@@ -41,7 +41,7 @@ function Login() {
                 id="email"
                 placeholder="Enter Email"
                 autoComplete="on"
-                className="form-control rounded-0"
+                className="form-control rounded-2"
                 onChange={(e) => setEmail(e.target.value)}
               />
             </div>
@@ -53,12 +53,12 @@ function Login() {
                 type="password"
                 id="pwd"
                 placeholder="Enter Password"
-                className="form-control rounded-0"
+                className="form-control rounded-2"
                 onChange={(e) => setPassword(e.target.value)}
               />
             </div>
           </div>
-          <button type="submit" className="btn btn-success w-100 rounded-0">
+          <button type="submit" className="btn  w-100 rounded-2 "style={{background: '#0967F3'}}>
             Login
           </button>
         </form>
