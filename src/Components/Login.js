@@ -31,19 +31,6 @@ function Login() {
       <div className="bg-warning p-3 rounded w-25">
         <h2>Login</h2>
         <form onSubmit={handleSubmit}>
-          <div className="mb-3">
-            <label for="name">
-              <strong>Name</strong>
-            </label>
-            <input
-              type="text"
-              id="name"
-              placeholder="Enter Name"
-              autoComplete="on"
-              className="form-control rounded-0"
-              onChange={(e) => setName(e.target.value)}
-            />
-          </div>
           <div>
             <div className="mb-3">
               <label for="email">
