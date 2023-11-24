@@ -29,7 +29,7 @@ function Login() {
   return (
       <div className=" justify-content-center align-items-center "style={{ background: '#721CC8 ' }}>
       <br />
-      <h2> just DO it!</h2>
+      <h2 align="center"> just DO it!</h2>
       <div className="d-flex justify-content-center align-items-center vh-100" style={{ background: 'linear-gradient(180deg, #721CC8 2.64%, #D11AFF 100%)' }}>
         <div className=" p-3 rounded w-25"style={{ background: '#D9D9D9' }} >
         <h2>Login</h2>
