@@ -31,11 +31,11 @@ function SignUp() {
   };
 
   return (
-    <div className="bg-info justify-content-center align-items-center">
+<div className=" justify-content-center align-items-center "style={{ background: '#721CC8 ' }}>
       <br />
-      <h2>Welcome to Task Manager!</h2>
-      <div className="d-flex justify-content-center align-items-center bg-info vh-100">
-        <div className="bg-warning p-3 rounded w-25">
+      <h2> just DO it!</h2>
+      <div className="d-flex justify-content-center align-items-center vh-100" style={{ background: 'linear-gradient(180deg, #721CC8 2.64%, #D11AFF 100%)' }}>
+        <div className=" p-3 rounded w-25"style={{ background: '#D9D9D9' }} >
           <h2>Register</h2>
           <form onSubmit={handleSubmit}>
             <div className="mb-3">
@@ -47,7 +47,7 @@ function SignUp() {
                 id="name"
                 placeholder="Enter Name"
                 autoComplete="on"
-                className="form-control rounded-0"
+                className="form-control rounded-2"
                 onChange={(e) => setName(e.target.value)}
               />
             </div>
@@ -61,7 +61,7 @@ function SignUp() {
                   id="email"
                   placeholder="Enter Email"
                   autoComplete="on"
-                  className="form-control rounded-0"
+                  className="form-control rounded-2"
                   onChange={(e) => setEmail(e.target.value)}
                 />
               </div>
@@ -73,12 +73,12 @@ function SignUp() {
                   type="password"
                   id="pwd"
                   placeholder="Enter Password"
-                  className="form-control rounded-0"
+                  className="form-control rounded-2"
                   onChange={(e) => setPassword(e.target.value)}
                 />
               </div>
             </div>
-            <button type="submit" className="btn btn-success w-100 rounded-0">
+            <button type="submit" className="btn  w-100 rounded-2" style={{background: '#0967F3'}}>
               Register
             </button>
             <br />
@@ -86,7 +86,7 @@ function SignUp() {
             <h6>Already Have an Account</h6>
             <Link
               to="/sign-in"
-              className="btn btn-default border w-100 bg-light rounded-0 text-decoration-none"
+              className="btn btn-default border w-100 rounded-2 text-decoration-none"style={{background: '#0967F3'}}
             >
               Login
             </Link>
