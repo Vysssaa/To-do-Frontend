@@ -188,11 +188,6 @@ function App () {
 
                </div>
                <div>
-                 <AiOutlineDelete
-                   title="Delete?"
-                   className="icon"
-                   onClick={() => handleToDoDelete (index)}
-                 />
                  <BsCheckLg
                    title="Completed?"
                    className=" check-icon"
