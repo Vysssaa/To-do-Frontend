@@ -36,7 +36,7 @@ function SignUp() {
       <h2 align="center">just DO it!</h2>
       <div className="d-flex justify-content-center align-items-center vh-100" style={{ background: 'linear-gradient(180deg, #721CC8 2.64%, #D11AFF 100%)' }}>
         <div className=" p-3 rounded w-25"style={{ background: '#D9D9D9' }} >
-          <h2>Register</h2>
+          <h2 align="center">Register</h2>
           <form onSubmit={handleSubmit}>
             <div className="mb-3">
               <label for="name">
