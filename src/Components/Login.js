@@ -27,7 +27,7 @@ function Login() {
   };
 
   return (
-    <div className="justify-content-center align-items-center" style={{background:'#721CC8'}}>
+    <div className="justify-content-center align-items-center bg-primary">
       <div className=" p-3 rounded w-25"style={{ background: '#D9D9D9' }}>
         <h2>Login</h2>
         <form onSubmit={handleSubmit}>
